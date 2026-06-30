@@ -6,7 +6,7 @@ Day 2：Python 基础语法通关
 
 def greet(name):
     """返回问候语"""
-    return f"你好，{name}！欢迎来到 Python 世界"
+    return f"你好，{name}！欢迎来到 Python 学习之旅"
 
 
 def is_even(n):
