@@ -40,7 +40,7 @@ def main():
     print(f"  Virtual Env  : {info['venv_path']}")
     print(f"  Interpreter  : {info['executable']}")
     print("=" * 50)
-    print(">> Day 1 complete. Let the AI Agent journey begin!")
+    print(">> Day 1 complete. Let the AI Agent journey begin! (v2)")
 
 
 if __name__ == "__main__":
