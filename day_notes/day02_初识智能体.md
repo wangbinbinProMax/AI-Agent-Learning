@@ -207,6 +207,9 @@ for i in range(5): #设置最大循环次数
 	kwargs = dict(re.findall(r'(\w+)="([^"]*)"', args_str))
 	
 	if tool_name in available_tools:
+        # 假设 kwargs = {"query": "杭州天气", "city": "杭州"}
+        # 正常调用 search_function(query="杭州天气", city="杭州")
+        # 使用 **kwargs 解包 search_function(**kwargs)  # 等价于上面的调用
 		observation = available_tools[tool_name](**kwargs)
 	else:
 		observation = f"错误：未定义的工具 '{tool_name}'"
