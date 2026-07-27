@@ -4,7 +4,7 @@ from tavily import TavilyClient
 根据城市和天气，使用Tavily Search API搜索并返回优化后的景点推荐。
 """
 # 1. 从环境变量中读取API密钥
-TAVILY_API_KEY="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"
+TAVILY_API_KEY="..."
 api_key = TAVILY_API_KEY
 if not api_key:
     print("错误:未配置TAVILY_API_KEY环境变量。")
